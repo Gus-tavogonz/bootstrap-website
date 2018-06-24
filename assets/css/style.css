@@ -54,13 +54,26 @@
 	background-repeat: no-repeat;
 	display: block;
  }
+
+
+ .hero-image p{
+     font-family: Lato;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 150px;
+ }
  /*HERO IMAGE ENDS HERE*/
 
 
  /*THREE COLUMNS STARTS HERE*/
  .col-md-4 a{
     text-decoration: none;
-   
+}
+
+.three-columns{
+    text-align: center;
+    
 }
 
 .col-md-4 h2{
@@ -116,6 +129,8 @@
 	color: #ffffff;
 }
 
+
+
 /* NEWSLETTER ENDS HERE */
 
 
@@ -169,36 +184,74 @@
     padding-bottom:30px;
     margin-bottom: 40px;
 }
+.about-p{
+    padding: 15px;
+}
+
+/*//////////CONTACT BUTTON////////*/
+.btn-contact{
+    height: 35px;
+	background: #e8491d;
+	border: 0;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+    color: #ffffff;
+    border-radius: 0;
+
+}
+.btn-contact:hover{
+    background-color:  #e8491d;
+}
+
 
 
 /*///////////// PORTFOLIO STYLES////////////////////////*/
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  .column1 {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
+.about-port{
+    background-color: #D3D3D3;
+    height: 600px;
+    margin-top: 40px;
+    padding-bottom:30px;
+    margin-bottom: 40px;
+}
 
-  .column1 img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-
-  .column2 {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-
-  .column2 img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
+.about-port h2{
+    padding-top:30px;
+    padding-left: 10px;
+    color: #ff6900;
+    font-weight: ;
+}
 
 
+.description{
+    background-color: #ff6900;
+    width:200px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+.column1{
+    padding-right: 2px;
+}
+
+/*media query 767*/
+
+@media only screen and (max-width: 767px) {
+    .about-port{
+    height:1100px; 
+    background-color: #D3D3D3;
+    }
+    .column1{
+    padding-left: 20px;
+    margin-left: 140px;
+    }
+    .about{
+        height: 725px;
+    }
+}
