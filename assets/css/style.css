@@ -230,7 +230,19 @@
     color: white;
     font-size: large;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+.description-project{
+    background-color: #ff6900;
+    width:500px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
     position: relative;
     bottom: 55px;
     
@@ -238,6 +250,12 @@
 
 .column1{
     padding-right: 2px;
+}
+
+
+
+.project-title{
+    float: left;
 }
 
 /*media query 767*/
