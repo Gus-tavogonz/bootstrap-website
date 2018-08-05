@@ -216,7 +216,22 @@
     margin-bottom: 40px;
 }
 
+.project-port{
+    background-color: #D3D3D3;
+    height: 950px;
+    margin-top: 40px;
+    padding-bottom:30px;
+    margin-bottom: 40px;
+}
+
+
 .about-port h2{
+    padding-top:30px;
+    padding-left: 10px;
+    color: #ff6900;
+    font-weight: ;
+}
+.project-port h2{
     padding-top:30px;
     padding-left: 10px;
     color: #ff6900;
@@ -265,6 +280,7 @@
 
 .port-image{
     float: none;
+    display: block;
 }
 
 .grey-box{
