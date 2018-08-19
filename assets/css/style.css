@@ -44,6 +44,12 @@
  /*NAV BAR ends HERE*/
 
  /*HERO IMAGE STARTS HERE*/
+.hero-section{
+    background-image: url("../../assets/images/hero-image2.png") ;
+
+}
+
+ 
  .hero-image{
     background-image:url("../../assets/images/hero-image1.jpg");
 	background-size: cover;
