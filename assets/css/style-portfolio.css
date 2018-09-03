@@ -5,6 +5,11 @@
     font-family: 'Lato', sans-serif;
  }
 
+ a:hover{
+    color:lightgrey;
+}
+
+
 
  /*NAV BAR STARTS HERE*/
  .navbar-brand{
