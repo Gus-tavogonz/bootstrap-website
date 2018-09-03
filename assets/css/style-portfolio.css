@@ -121,7 +121,7 @@
 }   
 .button-1{
     height: 35px;
-	background: #e8491d;
+	background:  #ff6900;
 	border: 0;
 	border: none;
 	padding-left: 20px;
@@ -290,6 +290,19 @@
     margin-top: 40px;
     padding-bottom:30px;
     margin-bottom: 40px;
+}
+
+.repository{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 

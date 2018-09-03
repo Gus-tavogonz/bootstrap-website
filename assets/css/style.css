@@ -127,7 +127,7 @@
 }   
 .button-1{
     height: 35px;
-	background: #e8491d;
+	background: #ff6900;
 	border: 0;
 	border: none;
 	padding-left: 20px;
@@ -273,7 +273,20 @@
     padding-right: 2px;
 }
 
+/*  PROJECTS */
 
+.repository{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .project-title{
     float: left;
