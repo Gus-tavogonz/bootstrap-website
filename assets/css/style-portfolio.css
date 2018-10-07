@@ -145,6 +145,10 @@
 }
 
 
+
+
+
+
 .footer-image{
     background-image:url("../../assets/images/footer-image1.jpg");
 	background-size: cover;
@@ -256,7 +260,8 @@
 	right: 0;
 	transition: .5s ease;
 	top: 0;
-	width: 100%;
+    width: 100%;
+    padding: 0px;
 }
 
 .cell-container:hover .overlay {
@@ -372,13 +377,20 @@ a{
 .grey-box{
 
 }
+
+.art-illustration-design{
+    align-content: center;
+    text-align: center;
+}
+
+.i-image{
+    padding: 2px;
+   
+}
 /*media query 767*/
 
 @media only screen and (max-width: 767px) {
-    .about-port{
-    height:1100px; 
-    background-color: #D3D3D3;
-    }
+   
     .column1{
     padding-left: 20px;
     margin-left: 140px;
