@@ -76,6 +76,36 @@
  /*HERO IMAGE ENDS HERE*/
 
 
+
+ /*HERO IMAGE FOR ABOUT STARTS HERE*/
+ .hero-section-about{
+    background-image: url("../../assets/images/hero-image2.png") ;
+
+}
+
+ 
+ .hero-image-about{
+    background-image:url("../../assets/images/hero-image1.jpg");
+	background-size: cover;
+	height: 250px;
+	background-color: #ff6900;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+ }
+
+
+ .hero-image-about p{
+     font-family: Lato;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 100px;
+ }
+ /*HERO IMAGE ENDS HERE*/
+
+
  /*THREE COLUMNS STARTS HERE*/
  .col-md-4 a{
     text-decoration: none;
@@ -144,6 +174,10 @@
 /* NEWSLETTER ENDS HERE */
 
 
+.footer-section{
+    padding-top: 15px;
+}
+
 .footer-column{
     float: left;
     color: white;
@@ -188,14 +222,19 @@
 }
 
 .about{
-    background-color: #D3D3D3;
+    
     height: 600px;
     margin-top: 40px;
     padding-bottom:30px;
     margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 .about-p{
     padding: 15px;
+}
+
+.about-content{
+    padding-bottom: 15px;
 }
 
 /*//////////CONTACT BUTTON////////*/
