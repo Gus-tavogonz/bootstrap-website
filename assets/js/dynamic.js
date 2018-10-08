@@ -82,5 +82,11 @@ function showAnimation(){
         console.log(videoSrc);
         $("#video").attr("src",videoSrc)
         })
+    
+    $(".close").on("click", function(){
+        var blank = "";
+        $("#video").attr("src", blank )
+    })
    
+
 })

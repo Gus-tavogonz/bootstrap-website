@@ -137,7 +137,11 @@
 
 
 /* NEWSLETTER ENDS HERE */
+/* foootttteerrrr section!!!!!!!!!!!!!!!*/
 
+.footer-section{
+    margin-top: 50px;
+}
 
 .footer-column{
     float: left;
@@ -389,9 +393,11 @@ a{
 
 .modal-dialog {
     max-width: 800px;
+    
     margin: 30px auto;
 }
 .modal-body {
+    
     position:relative;
     padding:0px;
     min-width: 50%;
