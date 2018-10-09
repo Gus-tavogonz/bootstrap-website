@@ -35,7 +35,7 @@ function showCDesign(){
         $(".cell-container").fadeOut();
     }
         $(".cdesign").fadeIn();
-        console.log("chraracter design")
+        console.log("character design")
     
 }
 function showAnimation(){
@@ -45,6 +45,13 @@ function showAnimation(){
         $(".animation").fadeIn();
         console.log("animation")
 }
+function showWeb(){
+    if($(".cell-container").not(".web")){
+        $(".cell-container").fadeOut();
+    }
+    $(".web").fadeIn();
+    console.log("web")
+}   
 
 
     $("#onClickAll").on("click", function(){
@@ -70,6 +77,10 @@ function showAnimation(){
     $("#onClickAnimation").on("click", function(){
         event.preventDefault();
         showAnimation();
+    })
+    $("#onClickWeb").on("click", function(){
+        event.preventDefault();
+        showWeb();
     })
 
 
