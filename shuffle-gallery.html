@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,8 +31,12 @@ crossorigin="anonymous">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!--LINK TO CSS by GUS.TAVO-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style-portfolio.css">
+<!---SHUFFLE JS-->
+<script src="./assets/js/jquery.filterizr.min.js"></script>
+
+
+<!--LINK TO CSS by GUS.TAVO-->
+ <link rel="stylesheet" type="text/css" href="./assets/css/style-portfolio.css">
 
 
     <!--fonts by GUS.TAVO-->
@@ -98,12 +102,12 @@ crossorigin="anonymous">
             
                 
             <h3>
-                <a href="" id="onClickAll">All |</a>
-                <a href="" id="onClickIllustration">Illustration |</a>
-                <a href="" id="onClickDesign"> Design |</a>
-                <a href="" id="onClickCDesign"> Character Design |</a>
-                <a href="" id="onClickAnimation"> Animation |</a>
-                <a href="" id="onClickWeb"> Web |</a>
+                <a href="" id="onClickAll" class="click" data-filter="all">All |</a>
+                <a href="" id="onClickIllustration"  class="click" data-filter="illustration">Illustration |</a>
+                <a href="" id="onClickDesign"  class="click" data-filter="design"> Design |</a>
+                <a href="" id="onClickCDesign"   class="click" data-filter="cDesign"> Character Design |</a>
+                <a href="" id="onClickAnimation"  class="click" data-filter="animation"> Animation |</a>
+                <a href="" id="onClickWeb"  class="click" data-filter="web"> Web |</a>
             </h3>
         
                    
@@ -114,69 +118,64 @@ crossorigin="anonymous">
     
 
     <hr>
-
-
-    <div class="container" data-aos="fade-up" data-aos-duration="1000"><!--ABOUT GOES HERE!!!!-->
-        <div class="row">
-
-               <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container  illustration" id="image-div" >
-                <img class="image" src="./assets/images/image7.jpg"> <a class="overlay" href="https://unsplash.com/photos/_Ajm-ewEC24" target="_blank">
+ 
+    <div class="container">
+        <div class="row filtr-container">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="illustration" data-sort="value" >
+                <img class="image" src="./assets/images/image1-1.jpg"> <a class="overlay"  target="_blank">
                 <div class="text">
-                    <p class="title">Illustration</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2018</p>
-                </div></a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container design">
+                <p class="title">Illustration</p>
                 
+                <div class="divider">
+                </div>
+                
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
 
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="design" data-sort="value" >
+                <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay"  target="_blank">
+                <div class="text">
+                <p class="title">Illustration</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
 
-                <img class="image" src="./assets/images/image6.jpg"> <a class="overlay" href="https://unsplash.com/photos/_Ajm-ewEC24" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="design" data-sort="value">
+
+                <img class="image" src="./assets/images/image6.jpg"> <a class="overlay"  target="_blank">
                 <div class="text">
                     <p class="title">Coca-cola Presentation</p>
-        
-        
                     <div class="divider">
                     </div>
-        
-        
                     <p class="sub-title">2015</p>
                 </div></a>
-            </div>
+        </div>
 
-
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container illustration">
-                <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay" href="https://unsplash.com/photos/qNhstTawQrI" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="illustration" data-sort="value">
+                <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay"  target="_blank">
                 <div class="text">
                     <p class="title">Random Graphics</p>
-        
-        
                     <div class="divider">
                     </div>
-        
-        
                     <p class="sub-title">2017</p>
                 </div></a>
-            </div>
+        </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container cdesign">
-                <img class="image" src="./assets/images/image-3.jpg"> <a class="overlay" href="./assets/images/image-3.jpg" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="cDesign" data-sort="value">
+                <img class="image" src="./assets/images/image-3.jpg"> <a class="overlay"  target="_blank">
                 <div class="text">
                     <p class="title">Character Design</p>
                     <div class="divider">
                     </div>
                     <p class="sub-title">2018</p>
                 </div></a>
-            </div>
+        </div>
 
-            
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container illustration">
-                <img class="image" src="./assets/images/image1-1.jpg"> <a class="overlay" href="" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="design" data-sort="value">
+                <img class="image" src="./assets/images/image1-1.jpg"> <a class="overlay"  target="_blank">
                 <div class="text">
                     <p class="title">Vista Caracas</p>
         
@@ -187,11 +186,11 @@ crossorigin="anonymous">
         
                     <p class="sub-title">2016</p>
                 </div></a>
-            </div>
+        </div>
 
                        
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container animation">
-                <img class="image" src="./assets/images/animation.jpg"> <a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435672?badge=0" href="" data-target="#myModal">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
+                <img class="image" src="./assets/images/animation.jpg"> <a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435672?badge=0" data-target="#myModal">
                 <div class="text"> 
                     <p class="title">The Revenant</p>
         
@@ -202,9 +201,9 @@ crossorigin="anonymous">
         
                     <p class="sub-title">2018</p>
                 </div></a>
-            </div>
+        </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container animation">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
                     <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435192?badge=0" href="" data-target="#myModal">
                     <div class="text">   
                         <p class="title">Guitar</p>
@@ -216,9 +215,9 @@ crossorigin="anonymous">
             
                         <p class="sub-title">2018</p>
                     </div></a>
-            </div>
+        </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container animation">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
                     <img class="image" src="./assets/images/image-9.jpg"><a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" href="" data-target="#myModal">
                     <div class="text">
                         <p class="title">Cafe</p>
@@ -230,9 +229,14 @@ crossorigin="anonymous">
             
                         <p class="sub-title">2018</p>
                     </div></a>
-            </div>
-        </div>     
-   </div>
+        </div>
+        
+
+        </div>
+    </div>
+
+   
+
    
    <!----ENDS HERE-->
 

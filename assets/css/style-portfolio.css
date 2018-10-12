@@ -184,11 +184,16 @@
 
 /*////////////ABOUT, CONTACT, PORTFOLIO, PAGE STYLE//////////////*/
 
+.click{
+    color: #ff6900;
+    text-decoration: inherit;
+}
+
 .about h2{
     padding-top:30px;
     padding-left: 10px;
     color: #ff6900;
-    font-weight: ;
+    font-weight: 
 }
 
 .about{
