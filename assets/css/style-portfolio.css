@@ -3,7 +3,7 @@
  
  body{
     font-family: 'Lato', sans-serif;
-    background-color: rgb(34, 34, 34);
+    background-color: #0f0f0f;
  }
 
  a:hover{
@@ -390,9 +390,21 @@ a{
     text-align: center;
 }
 
+.for-image{
+    margin: auto;
+}
+
+
 .i-image{
-    padding: 2px;
+    padding: 3px;
+    margin: auto;
+    
    
+}
+.i-image img{
+    width:100%;
+    align-content: center;
+    
 }
 
 /*///////////MODAL CSS///////////*/
