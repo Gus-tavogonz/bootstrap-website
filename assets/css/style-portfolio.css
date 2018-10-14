@@ -187,6 +187,28 @@
 /*////////////ABOUT, CONTACT, PORTFOLIO, PAGE STYLE//////////////*/
 
 
+.hero-section-about{
+
+}
+.hero-image-about{
+    background-image:url("../../assets/images/hero-image1.jpg");
+	background-size: cover;
+	
+	background-color: #ff6900;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+}
+.hero-image-about p{
+    font-family: Lato;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
 
 
 .about h2{
@@ -196,15 +218,14 @@
     font-weight: 
 }
 
-.about{
-    background-color: #D3D3D3;
-    height: 600px;
-    margin-top: 40px;
-    padding-bottom:30px;
-    margin-bottom: 40px;
+.about-content{
+  display: block;
+  margin:auto;
 }
 .about-p{
     padding: 15px;
+    margin-bottom: 20px;
+    display: block;
 }
 
 /*//////////CONTACT BUTTON////////*/
