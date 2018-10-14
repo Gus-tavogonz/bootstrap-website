@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!----jQUERY-->
 
-
+  
 
 
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> <!---RESET-STYLESHEET-CHANGES MARGINS AND BOLDNESS OF THE TYPE ON CHROME-->
@@ -15,13 +16,21 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <!------CHOCOLAT JS -->
-    <script type="text/javascript" src="./assets/js/jquery.chocolat.js"></script>
-
+    
+   
     <!--LINK TO CSS by GUS.TAVO-->
+    
     <link rel="stylesheet" type="text/css" href="./assets/css/style-portfolio.css">
 
-   
+
+    <!------CHOCOLAT JS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/chocolat.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="./assets/js/jquery.chocolat.js"></script>
 
 
 
@@ -89,82 +98,72 @@
         </div>
     -->
     <div class="container"><!--ABOUT GOES HERE!!!!-->
-        <div class="row for-image">
-            <div class="col-md-4 i-image chocolat-parent" data-chocolat-title="set title">
+        <div class="row for-image chocolat-parent" data-chocolat-title="set title">
+            <div class="col-md-4 i-image" >
                 <a class="chocolat-image" href="./assets/images/i-1.jpg" title="caption image 1">
                 <img src="./assets/images/i-1.jpg"  alt="">
                 </a>
             </div>
             <div class="col-md-4  i-image">
+                <a class="chocolat-image" href="./assets/images/i-2.jpg" title="caption image 1">
                 <img src="./assets/images/i-2.jpg"  alt="">
+                </a>
             </div>
             <div class="col-md-4 i-image">
+                <a class="chocolat-image" href="./assets/images/i-3.jpg" title="caption image 1">
                 <img src="./assets/images/i-3.jpg"  alt="">
+                </a>
             </div>
                     
-        </div>
-        
-   </div>
-   <div class="container"><!--ABOUT GOES HERE!!!!-->
+   <!--ABOUT GOES HERE!!!!-->
     <div class="row for-image">
             <div class="col-md-6 i-image">
+                    <a class="chocolat-image" href="./assets/images/i-6.jpg" title="caption image 1">
                     <img src="./assets/images/i-6.jpg"   alt="">
+                    </a>
                 </div>
         <div class="col-md-6 i-image">
+            <a class="chocolat-image" href="./assets/images/i-11.jpg" title="caption image 1">
             <img src="./assets/images/i-11.jpg"  alt="">
-        </div>
-      
-                
+            </a>
+        </div>       
     </div>
-    
-</div>
-   
-   <div class="container">
-       <div class="row">
-           
- 
-           
-          
-       </div>
-   </div>
-   <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-           
-            <div class="col-md-2"></div>
-           
-        </div>
-    </div>
+     
 
-  
-
-    <div class="container"><!--ABOUT GOES HERE!!!!-->
-        <div class="row">
+    <!--ABOUT GOES HERE!!!!-->
+        <div class="row for-image">
             <div class="col-md-4 i-image">
+                <a class="chocolat-image" href="./assets/images/i-7.png" title="caption image 1">
                 <img src="./assets/images/i-7.png"  alt="">
+                </a>
             </div>
             <div class="col-md-4 i-image">
+                <a class="chocolat-image" href="./assets/images/i-8.png" title="caption image 1">
                 <img src="./assets/images/i-8.png" alt="">
+                </a>
             </div>
             <div class="col-md-4 i-image">
+                <a class="chocolat-image" href="./assets/images/i-9.png" title="caption image 1">
                 <img src="./assets/images/i-9.png"  alt="">
+                </a>
             </div>
                     
         </div>
         
-   </div>
-
-   <div class="container">
-       <div class="row">
+       <div class="row for-image">
             <div class="col-md-8 i-image">
+                    <a class="chocolat-image" href="./assets/images/i-4.jpg" title="caption image 1">
                     <img src="./assets/images/i-4.jpg" style="height: 75%" alt="">
+                    </a>
                 </div>
            <div class="col-md-12  i-image">
+                <a class="chocolat-image" href="./assets/images/i-10.png" title="caption image 1">
                <img src="./assets/images/i-10.png" alt="">
+               </a>
            </div>
        </div>
-   </div>
-   
+</div>
+</div>
    
    
    <!----ENDS HERE-->
@@ -239,14 +238,12 @@
 
 </div>
 
-
-   <script>
-    $(document).ready(function(){
-    $('.chocolat-parent').Chocolat();
-
-    $(a).preventDeafult();
-    });
-   </script>
+<script>
+        $(document).ready(function(){
+        $('.chocolat-parent').Chocolat();
+        });
+</script>
+   
  
     
 </body>
