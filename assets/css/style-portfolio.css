@@ -220,7 +220,7 @@
 
 .about-content{
   display: block;
-  margin:auto;
+  margin-bottom: 10px;
 }
 .about-p{
     padding: 15px;
@@ -454,7 +454,7 @@ a{
 /*///////////MODAL CSS///////////*/
 
 .modal-dialog {
-    max-width: 800px;
+    max-width: 950px;
     
     margin: 30px auto;
 }
@@ -484,7 +484,7 @@ a{
     margin-left: 140px;
     }
     .about{
-        height: 725px;
+        height: 800px;
     }
 }
 
