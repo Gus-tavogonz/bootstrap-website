@@ -14,8 +14,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+
     <!--LINK TO CSS by GUS.TAVO-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style-portfolio.css">
+
+    <!----Animate on Scroll!-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!---FILTERIRZR JS-->
+    <script src="./assets/js/jquery.filterizr.min.js"></script>
+
+
 
 
     <!--fonts by GUS.TAVO-->
@@ -62,113 +78,174 @@
 
     
     <div class="container about-port box"><!--Portfolio Starts here-->
+
+        <br>
+
+
         <div class="row">
-            <div class="col-md-12">
-            <div><h2>Portfolio</h2></div>
+            <div class="col-md-12 art-illustration-design" >
+            
+                
+            <h3>
+                <a href="" id="onClickAll" class="click" data-filter="all">All |</a>
+                <a href="" id="onClickIllustration"  class="click" data-filter="illustration">Illustration |</a>
+                <a href="" id="onClickDesign"  class="click" data-filter="design"> Design |</a>
+                <a href="" id="onClickCDesign"   class="click" data-filter="cDesign"> Character Design |</a>
+                <a href="" id="onClickAnimation"  class="click" data-filter="animation"> Animation |</a>
+                <a href="" id="onClickWeb"  class="click" data-filter="web"> Web |</a>
+            </h3>
+        
+                   
+            
            </div>
         </div>
+    </div>
     
+
     <hr>
-    
-    <div class="container"><!--ABOUT GOES HERE!!!!-->
-        <div class="row">
-
-               <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container">
-                <img class="image" src="./assets/images/image7.jpg"> <a class="overlay" href="./assets/images/image7.jpg" target="_blank">
+ 
+    <div class="container">
+        <div class="row filtr-container">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="illustration" data-sort="value" >
+                <img class="image" src="./assets/images/image1-1.jpg"> <a class="overlay" href="illustration.html"  target="_blank">
                 <div class="text">
-                    <p class="title">Illustration</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2018</p>
-                </div></a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container column">
+                <p class="title">Illustration</p>
                 
+                <div class="divider">
+                </div>
+                
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
 
-
-                <img class="image" src="./assets/images/image6.jpg"> <a class="overlay" href="https://unsplash.com/photos/_Ajm-ewEC24" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="design"  data-sort="value" >
+                <img class="image" src="./assets/images/image8.png"> <a class="overlay" href="design.html" target="_blank">
                 <div class="text">
-                    <p class="title">Coca-cola Presentation</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2015</p>
-                </div></a>
-            </div>
+                <p class="title">Design</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
 
-
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container">
-                <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay" href="https://unsplash.com/photos/qNhstTawQrI" target="_blank">
-                <div class="text">
-                    <p class="title">Random Graphics</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2017</p>
-                </div></a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container">
-                <img class="image" src="./assets/images/image-3.jpg"> <a class="overlay" href="./assets/images/image-3.jpg" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="cDesign"  data-sort="value">
+                <img class="image" src="./assets/images/image-3.jpg"> <a class="overlay"  href="character-design.html" target="_blank">
                 <div class="text">
                     <p class="title">Character Design</p>
-        
-        
                     <div class="divider">
                     </div>
-        
-        
                     <p class="sub-title">2018</p>
                 </div></a>
-            </div>
-
-            
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container">
-                <img class="image" src="./assets/images/image1-1.jpg"> <a class="overlay" href="" target="_blank">
-                <div class="text">
-                    <p class="title">Vista Caracas</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2016</p>
-                </div></a>
-            </div>
-
-                       
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container">
-                <img class="image" src="./assets/images/animation.jpg"> <a class="overlay" href="" target="_blank">
-                <div class="text">
-                    <p class="title">Animation</p>
-        
-        
-                    <div class="divider">
-                    </div>
-        
-        
-                    <p class="sub-title">2018</p>
-                </div></a>
-            </div>
-
-
-        
         </div>
+                 
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
+                <img class="image" src="./assets/images/animation.jpg"> <a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435672?badge=0" href="" data-target="#myModal">
+                <div class="text"> 
+                    <p class="title">The Revenant</p>
         
-   </div>
-   
-   </div><!---PORTFOLIO ENDS HERE!!!!-->
+        
+                    <div class="divider">
+                    </div>
+        
+        
+                    <p class="sub-title">2018</p>
+                </div></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
+                    <img class="image" src="./assets/images/image-2.jpg"> <a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435192?badge=0" href="" data-target="#myModal">
+                    <div class="text">   
+                        <p class="title">Guitar</p>
+            
+            
+                        <div class="divider">
+                        </div>
+            
+            
+                        <p class="sub-title">2018</p>
+                    </div></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="animation" data-sort="value">
+                    <img class="image" src="./assets/images/image-9.jpg"><a class="overlay video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" href="" data-target="#myModal">
+                    <div class="text">
+                        <p class="title">Cafe</p>
+            
+            
+                        <div class="divider">
+                        </div>
+            
+            
+                        <p class="sub-title">2018</p>
+                    </div></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="web" data-sort="value">
+            <img class="image" src="./assets/images/w-1.jpg"><a class="overlay" href="https://gus-tavogonz.github.io/unit-4-game/" target="_blank">
+            <div class="text">
+                <p class="title">Crystal Game</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="web" data-sort="value">
+            <img class="image" src="./assets/images/w-2.jpg"><a class="overlay" href="https://gus-tavogonz.github.io/trivia-game/" target="_blank">
+            <div class="text">
+                <p class="title">Trivia</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="web" data-sort="value">
+            <img class="image" src="./assets/images/w-3.jpg"><a class="overlay" href="https://floating-stream-81456.herokuapp.com/" target="_blank">
+            <div class="text">
+                <p class="title">Get Burgers!</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 cell-container filtr-item" data-category="web" data-sort="value">
+            <img class="image" src="./assets/images/w-4.jpg"><a class="overlay" href="https://gus-tavogonz.github.io/giftastic/" target="_blank">
+            <div class="text">
+                <p class="title">Go Gif Yourself!</p>
+                <div class="divider">
+                </div>
+                <p class="sub-title">2018</p>
+            </div></a>
+        </div>
+        </div>
+    </div> <!-----IMAGES ENDS HERE-->
+
+    <!-----MODAL FOR VIDEOS GOES HERE-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+          
+                
+                <div class="modal-body">
+          
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>        
+                  <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
+                </div>        
+                </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+
 
   
 <div class="footer-section"><!--FOOTER-->
@@ -234,7 +311,7 @@
 </div>
 
 
-   
+<script type="text/javascript" src="./assets/js/dynamic.js"></script>
  
     
 </body>
